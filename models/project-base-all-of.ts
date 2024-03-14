@@ -1,7 +1,7 @@
 /*
 Asana
 
-This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec] (https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
+This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec](https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
 
 The version of the OpenAPI document: 1.0
 
@@ -76,7 +76,7 @@ export interface ProjectBaseAllOf {
      */
     'due_on'?: string | null;
     /**
-     * [Opt In](https://raw.githubusercontent.com). The notes of the project with formatting as HTML.
+     * [Opt In](https://developers.asana.com/reference/rest-api-reference). The notes of the project with formatting as HTML.
      * @type {string}
      * @memberof ProjectBaseAllOf
      */

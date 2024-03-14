@@ -1,7 +1,7 @@
 /*
 Asana
 
-This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec] (https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
+This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec](https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
 
 The version of the OpenAPI document: 1.0
 
@@ -49,7 +49,7 @@ export interface CustomFieldResponseAllOf {
      */
     'created_by'?: UserCompact;
     /**
-     * *Conditional*. Only relevant for custom fields of type `people`. This array of [compact user](https://raw.githubusercontent.com) objects reflects the values of a `people` custom field.
+     * *Conditional*. Only relevant for custom fields of type `people`. This array of [compact user](https://developers.asana.com/reference/rest-api-reference) objects reflects the values of a `people` custom field.
      * @type {Array<UserCompact>}
      * @memberof CustomFieldResponseAllOf
      */

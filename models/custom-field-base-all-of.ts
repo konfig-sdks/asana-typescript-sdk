@@ -1,7 +1,7 @@
 /*
 Asana
 
-This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec] (https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
+This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec](https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
 
 The version of the OpenAPI document: 1.0
 
@@ -19,13 +19,13 @@ import { EnumOption } from './enum-option';
  */
 export interface CustomFieldBaseAllOf {
     /**
-     * [Opt In](https://raw.githubusercontent.com). The description of the custom field.
+     * [Opt In](https://developers.asana.com/reference/rest-api-reference). The description of the custom field.
      * @type {string}
      * @memberof CustomFieldBaseAllOf
      */
     'description'?: string;
     /**
-     * *Conditional*. Only relevant for custom fields of type `enum`. This array specifies the possible values which an `enum` custom field can adopt. To modify the enum options, refer to [working with enum options](https://raw.githubusercontent.com).
+     * *Conditional*. Only relevant for custom fields of type `enum`. This array specifies the possible values which an `enum` custom field can adopt. To modify the enum options, refer to [working with enum options](https://developers.asana.com/reference/rest-api-reference).
      * @type {Array<EnumOption>}
      * @memberof CustomFieldBaseAllOf
      */
