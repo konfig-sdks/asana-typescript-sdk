@@ -31,7 +31,7 @@ export interface WebhookRequestFiltersInner {
      */
     'resource_subtype'?: string;
     /**
-     * The type of change on the **resource** to pass through the filter. For more information refer to `Event.action` in the [event](https://developers.asana.com/reference/rest-api-reference) schema. This can be one of `changed`, `added`, `removed`, `deleted`, and `undeleted` depending on the nature of what has occurred on the resource.
+     * The type of change on the **resource** to pass through the filter. For more information refer to `Event.action` in the [event](https://raw.githubusercontent.com) schema. This can be one of `changed`, `added`, `removed`, `deleted`, and `undeleted` depending on the nature of what has occurred on the resource.
      * @type {string}
      * @memberof WebhookRequestFiltersInner
      */

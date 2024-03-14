@@ -821,7 +821,7 @@ export const ProjectsApiAxiosParamCreator = function (configuration?: Configurat
             };
         },
         /**
-         * Get an object that holds task count fields. **All fields are excluded by default**. You must [opt in](https://developers.asana.com/reference/rest-api-reference) using `opt_fields` to get any information from this endpoint.  This endpoint has an additional [rate limit](https://developers.asana.com/reference/rest-api-reference) and each field counts especially high against our [cost limits](/docs/rate-limits#cost-limits).  Milestones are just tasks, so they are included in the `num_tasks`, `num_incomplete_tasks`, and `num_completed_tasks` counts.
+         * Get an object that holds task count fields. **All fields are excluded by default**. You must [opt in](https://raw.githubusercontent.com) using `opt_fields` to get any information from this endpoint.  This endpoint has an additional [rate limit](https://raw.githubusercontent.com) and each field counts especially high against our [cost limits](/docs/rate-limits#cost-limits).  Milestones are just tasks, so they are included in the `num_tasks`, `num_incomplete_tasks`, and `num_completed_tasks` counts.
          * @summary Get task count of a project
          * @param {string} projectGid Globally unique identifier for the project.
          * @param {boolean} [optPretty] Provides “pretty” output. Provides the response in a “pretty” format. In the case of JSON this means doing proper line breaking and indentation to make it readable. This will take extra time and increase the response size so it is advisable only to use this during debugging.
@@ -1513,7 +1513,7 @@ export const ProjectsApiFp = function(configuration?: Configuration) {
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
         /**
-         * Get an object that holds task count fields. **All fields are excluded by default**. You must [opt in](https://developers.asana.com/reference/rest-api-reference) using `opt_fields` to get any information from this endpoint.  This endpoint has an additional [rate limit](https://developers.asana.com/reference/rest-api-reference) and each field counts especially high against our [cost limits](/docs/rate-limits#cost-limits).  Milestones are just tasks, so they are included in the `num_tasks`, `num_incomplete_tasks`, and `num_completed_tasks` counts.
+         * Get an object that holds task count fields. **All fields are excluded by default**. You must [opt in](https://raw.githubusercontent.com) using `opt_fields` to get any information from this endpoint.  This endpoint has an additional [rate limit](https://raw.githubusercontent.com) and each field counts especially high against our [cost limits](/docs/rate-limits#cost-limits).  Milestones are just tasks, so they are included in the `num_tasks`, `num_incomplete_tasks`, and `num_completed_tasks` counts.
          * @summary Get task count of a project
          * @param {ProjectsApiGetTaskCountsRequest} requestParameters Request parameters.
          * @param {*} [options] Override http request option.
@@ -1733,7 +1733,7 @@ export const ProjectsApiFactory = function (configuration?: Configuration, baseP
             return localVarFp.getProjectRecord(requestParameters, options).then((request) => request(axios, basePath));
         },
         /**
-         * Get an object that holds task count fields. **All fields are excluded by default**. You must [opt in](https://developers.asana.com/reference/rest-api-reference) using `opt_fields` to get any information from this endpoint.  This endpoint has an additional [rate limit](https://developers.asana.com/reference/rest-api-reference) and each field counts especially high against our [cost limits](/docs/rate-limits#cost-limits).  Milestones are just tasks, so they are included in the `num_tasks`, `num_incomplete_tasks`, and `num_completed_tasks` counts.
+         * Get an object that holds task count fields. **All fields are excluded by default**. You must [opt in](https://raw.githubusercontent.com) using `opt_fields` to get any information from this endpoint.  This endpoint has an additional [rate limit](https://raw.githubusercontent.com) and each field counts especially high against our [cost limits](/docs/rate-limits#cost-limits).  Milestones are just tasks, so they are included in the `num_tasks`, `num_incomplete_tasks`, and `num_completed_tasks` counts.
          * @summary Get task count of a project
          * @param {ProjectsApiGetTaskCountsRequest} requestParameters Request parameters.
          * @param {*} [options] Override http request option.
@@ -2588,7 +2588,7 @@ export class ProjectsApiGenerated extends BaseAPI {
     }
 
     /**
-     * Get an object that holds task count fields. **All fields are excluded by default**. You must [opt in](https://developers.asana.com/reference/rest-api-reference) using `opt_fields` to get any information from this endpoint.  This endpoint has an additional [rate limit](https://developers.asana.com/reference/rest-api-reference) and each field counts especially high against our [cost limits](/docs/rate-limits#cost-limits).  Milestones are just tasks, so they are included in the `num_tasks`, `num_incomplete_tasks`, and `num_completed_tasks` counts.
+     * Get an object that holds task count fields. **All fields are excluded by default**. You must [opt in](https://raw.githubusercontent.com) using `opt_fields` to get any information from this endpoint.  This endpoint has an additional [rate limit](https://raw.githubusercontent.com) and each field counts especially high against our [cost limits](/docs/rate-limits#cost-limits).  Milestones are just tasks, so they are included in the `num_tasks`, `num_incomplete_tasks`, and `num_completed_tasks` counts.
      * @summary Get task count of a project
      * @param {ProjectsApiGetTaskCountsRequest} requestParameters Request parameters.
      * @param {*} [options] Override http request option.

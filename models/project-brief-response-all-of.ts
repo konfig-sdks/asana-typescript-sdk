@@ -19,7 +19,7 @@ import { Compact } from './compact';
  */
 export interface ProjectBriefResponseAllOf {
     /**
-     * [Opt In](https://developers.asana.com/reference/rest-api-reference). The plain text of the project brief.
+     * [Opt In](https://raw.githubusercontent.com). The plain text of the project brief.
      * @type {string}
      * @memberof ProjectBriefResponseAllOf
      */

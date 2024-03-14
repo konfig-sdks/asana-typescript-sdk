@@ -24,7 +24,7 @@ export interface StatusUpdateBaseAllOf {
      */
     'text': string;
     /**
-     * [Opt In](https://developers.asana.com/reference/rest-api-reference). The text content of the status update with formatting as HTML.
+     * [Opt In](https://raw.githubusercontent.com). The text content of the status update with formatting as HTML.
      * @type {string}
      * @memberof StatusUpdateBaseAllOf
      */

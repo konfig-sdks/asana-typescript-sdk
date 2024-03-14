@@ -76,7 +76,7 @@ export interface ProjectBaseAllOf {
      */
     'due_on'?: string | null;
     /**
-     * [Opt In](https://developers.asana.com/reference/rest-api-reference). The notes of the project with formatting as HTML.
+     * [Opt In](https://raw.githubusercontent.com). The notes of the project with formatting as HTML.
      * @type {string}
      * @memberof ProjectBaseAllOf
      */

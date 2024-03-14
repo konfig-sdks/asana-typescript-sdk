@@ -19,13 +19,13 @@ import { ceCompact } from './ce-compact';
  */
 export interface TeamResponseAllOf {
     /**
-     * [Opt In](https://developers.asana.com/reference/rest-api-reference). The description of the team. 
+     * [Opt In](https://raw.githubusercontent.com). The description of the team. 
      * @type {string}
      * @memberof TeamResponseAllOf
      */
     'description'?: string;
     /**
-     * [Opt In](https://developers.asana.com/reference/rest-api-reference). The description of the team with formatting as HTML. 
+     * [Opt In](https://raw.githubusercontent.com). The description of the team with formatting as HTML. 
      * @type {string}
      * @memberof TeamResponseAllOf
      */

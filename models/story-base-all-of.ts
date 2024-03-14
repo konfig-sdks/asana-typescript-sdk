@@ -36,7 +36,7 @@ export interface StoryBaseAllOf {
      */
     'text'?: string;
     /**
-     * [Opt In](https://developers.asana.com/reference/rest-api-reference). HTML formatted text for a comment. This will not include the name of the creator.
+     * [Opt In](https://raw.githubusercontent.com). HTML formatted text for a comment. This will not include the name of the creator.
      * @type {string}
      * @memberof StoryBaseAllOf
      */

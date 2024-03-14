@@ -762,7 +762,7 @@ export const TasksApiAxiosParamCreator = function (configuration?: Configuration
             };
         },
         /**
-         * Returns the compact task records for some filtered set of tasks. Use one or more of the parameters provided to filter the tasks returned. You must specify a `project` or `tag` if you do not specify `assignee` and `workspace`.  For more complex task retrieval, use [workspaces/{workspace_gid}/tasks/search](https://developers.asana.com/reference/rest-api-reference).
+         * Returns the compact task records for some filtered set of tasks. Use one or more of the parameters provided to filter the tasks returned. You must specify a `project` or `tag` if you do not specify `assignee` and `workspace`.  For more complex task retrieval, use [workspaces/{workspace_gid}/tasks/search](https://raw.githubusercontent.com).
          * @summary Get multiple tasks
          * @param {boolean} [optPretty] Provides “pretty” output. Provides the response in a “pretty” format. In the case of JSON this means doing proper line breaking and indentation to make it readable. This will take extra time and increase the response size so it is advisable only to use this during debugging.
          * @param {number} [limit] Results per page. The number of objects to return per page. The value must be between 1 and 100.
@@ -2339,7 +2339,7 @@ export const TasksApiFp = function(configuration?: Configuration) {
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
         /**
-         * Returns the compact task records for some filtered set of tasks. Use one or more of the parameters provided to filter the tasks returned. You must specify a `project` or `tag` if you do not specify `assignee` and `workspace`.  For more complex task retrieval, use [workspaces/{workspace_gid}/tasks/search](https://developers.asana.com/reference/rest-api-reference).
+         * Returns the compact task records for some filtered set of tasks. Use one or more of the parameters provided to filter the tasks returned. You must specify a `project` or `tag` if you do not specify `assignee` and `workspace`.  For more complex task retrieval, use [workspaces/{workspace_gid}/tasks/search](https://raw.githubusercontent.com).
          * @summary Get multiple tasks
          * @param {TasksApiGetMultipleRequest} requestParameters Request parameters.
          * @param {*} [options] Override http request option.
@@ -2663,7 +2663,7 @@ export const TasksApiFactory = function (configuration?: Configuration, basePath
             return localVarFp.getDependents(requestParameters, options).then((request) => request(axios, basePath));
         },
         /**
-         * Returns the compact task records for some filtered set of tasks. Use one or more of the parameters provided to filter the tasks returned. You must specify a `project` or `tag` if you do not specify `assignee` and `workspace`.  For more complex task retrieval, use [workspaces/{workspace_gid}/tasks/search](https://developers.asana.com/reference/rest-api-reference).
+         * Returns the compact task records for some filtered set of tasks. Use one or more of the parameters provided to filter the tasks returned. You must specify a `project` or `tag` if you do not specify `assignee` and `workspace`.  For more complex task retrieval, use [workspaces/{workspace_gid}/tasks/search](https://raw.githubusercontent.com).
          * @summary Get multiple tasks
          * @param {TasksApiGetMultipleRequest} requestParameters Request parameters.
          * @param {*} [options] Override http request option.
@@ -4228,7 +4228,7 @@ export class TasksApiGenerated extends BaseAPI {
     }
 
     /**
-     * Returns the compact task records for some filtered set of tasks. Use one or more of the parameters provided to filter the tasks returned. You must specify a `project` or `tag` if you do not specify `assignee` and `workspace`.  For more complex task retrieval, use [workspaces/{workspace_gid}/tasks/search](https://developers.asana.com/reference/rest-api-reference).
+     * Returns the compact task records for some filtered set of tasks. Use one or more of the parameters provided to filter the tasks returned. You must specify a `project` or `tag` if you do not specify `assignee` and `workspace`.  For more complex task retrieval, use [workspaces/{workspace_gid}/tasks/search](https://raw.githubusercontent.com).
      * @summary Get multiple tasks
      * @param {TasksApiGetMultipleRequest} requestParameters Request parameters.
      * @param {*} [options] Override http request option.

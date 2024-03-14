@@ -36,7 +36,7 @@ export interface TaskRequestAllOf {
      */
     'assignee_section'?: string | null;
     /**
-     * An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, object, or array (depending on the custom field type). See the [custom fields guide](https://developers.asana.com/reference/rest-api-reference) for details on creating and updating custom field values.
+     * An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, object, or array (depending on the custom field type). See the [custom fields guide](https://raw.githubusercontent.com) for details on creating and updating custom field values.
      * @type {{ [key: string]: string; }}
      * @memberof TaskRequestAllOf
      */

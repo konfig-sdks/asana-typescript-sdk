@@ -49,7 +49,7 @@ export interface CustomFieldResponseAllOf {
      */
     'created_by'?: UserCompact;
     /**
-     * *Conditional*. Only relevant for custom fields of type `people`. This array of [compact user](https://developers.asana.com/reference/rest-api-reference) objects reflects the values of a `people` custom field.
+     * *Conditional*. Only relevant for custom fields of type `people`. This array of [compact user](https://raw.githubusercontent.com) objects reflects the values of a `people` custom field.
      * @type {Array<UserCompact>}
      * @memberof CustomFieldResponseAllOf
      */

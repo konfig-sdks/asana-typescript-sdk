@@ -19,13 +19,13 @@ import { EnumOption } from './enum-option';
  */
 export interface CustomFieldBaseAllOf {
     /**
-     * [Opt In](https://developers.asana.com/reference/rest-api-reference). The description of the custom field.
+     * [Opt In](https://raw.githubusercontent.com). The description of the custom field.
      * @type {string}
      * @memberof CustomFieldBaseAllOf
      */
     'description'?: string;
     /**
-     * *Conditional*. Only relevant for custom fields of type `enum`. This array specifies the possible values which an `enum` custom field can adopt. To modify the enum options, refer to [working with enum options](https://developers.asana.com/reference/rest-api-reference).
+     * *Conditional*. Only relevant for custom fields of type `enum`. This array specifies the possible values which an `enum` custom field can adopt. To modify the enum options, refer to [working with enum options](https://raw.githubusercontent.com).
      * @type {Array<EnumOption>}
      * @memberof CustomFieldBaseAllOf
      */

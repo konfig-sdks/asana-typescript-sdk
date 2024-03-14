@@ -59,13 +59,13 @@ export interface TaskBaseAllOf {
      */
     'created_at'?: string;
     /**
-     * [Opt In](https://developers.asana.com/reference/rest-api-reference). Array of resources referencing tasks that this task depends on. The objects contain only the gid of the dependency.
+     * [Opt In](https://raw.githubusercontent.com). Array of resources referencing tasks that this task depends on. The objects contain only the gid of the dependency.
      * @type {Array<AsanaResource>}
      * @memberof TaskBaseAllOf
      */
     'dependencies'?: Array<AsanaResource>;
     /**
-     * [Opt In](https://developers.asana.com/reference/rest-api-reference). Array of resources referencing tasks that depend on this task. The objects contain only the ID of the dependent.
+     * [Opt In](https://raw.githubusercontent.com). Array of resources referencing tasks that depend on this task. The objects contain only the ID of the dependent.
      * @type {Array<AsanaResource>}
      * @memberof TaskBaseAllOf
      */
@@ -89,7 +89,7 @@ export interface TaskBaseAllOf {
      */
     'external'?: TaskBaseAllOfExternal;
     /**
-     * [Opt In](https://developers.asana.com/reference/rest-api-reference). The notes of the text with formatting as HTML.
+     * [Opt In](https://raw.githubusercontent.com). The notes of the text with formatting as HTML.
      * @type {string}
      * @memberof TaskBaseAllOf
      */
@@ -107,7 +107,7 @@ export interface TaskBaseAllOf {
      */
     'hearts'?: Array<Like>;
     /**
-     * [Opt In](https://developers.asana.com/reference/rest-api-reference). In some contexts tasks can be rendered as a visual separator; for instance, subtasks can appear similar to [sections](https://developers.asana.com/reference/rest-api-reference) without being true `section` objects. If a `task` object is rendered this way in any context it will have the property `is_rendered_as_separator` set to `true`.
+     * [Opt In](https://raw.githubusercontent.com). In some contexts tasks can be rendered as a visual separator; for instance, subtasks can appear similar to [sections](https://raw.githubusercontent.com) without being true `section` objects. If a `task` object is rendered this way in any context it will have the property `is_rendered_as_separator` set to `true`.
      * @type {boolean}
      * @memberof TaskBaseAllOf
      */
@@ -161,7 +161,7 @@ export interface TaskBaseAllOf {
      */
     'num_likes'?: number;
     /**
-     * [Opt In](https://developers.asana.com/reference/rest-api-reference). The number of subtasks on this task. 
+     * [Opt In](https://raw.githubusercontent.com). The number of subtasks on this task. 
      * @type {number}
      * @memberof TaskBaseAllOf
      */

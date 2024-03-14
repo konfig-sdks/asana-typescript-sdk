@@ -39,7 +39,7 @@ import { requestBeforeHook } from '../requestBeforeHook';
 export const RulesApiAxiosParamCreator = function (configuration?: Configuration) {
     return {
         /**
-         * Trigger a rule which uses an [\"incoming web request\"](https://developers.asana.com/reference/rest-api-reference) trigger.
+         * Trigger a rule which uses an [\"incoming web request\"](https://raw.githubusercontent.com) trigger.
          * @summary Trigger a rule
          * @param {string} ruleTriggerGid The ID of the incoming web request trigger. This value is a path parameter that is automatically generated for the API endpoint.
          * @param {RulesTriggerRuleRequestRequest} rulesTriggerRuleRequestRequest A dictionary of variables accessible from within the rule.
@@ -105,7 +105,7 @@ export const RulesApiFp = function(configuration?: Configuration) {
     const localVarAxiosParamCreator = RulesApiAxiosParamCreator(configuration)
     return {
         /**
-         * Trigger a rule which uses an [\"incoming web request\"](https://developers.asana.com/reference/rest-api-reference) trigger.
+         * Trigger a rule which uses an [\"incoming web request\"](https://raw.githubusercontent.com) trigger.
          * @summary Trigger a rule
          * @param {RulesApiTriggerRuleRequestRequest} requestParameters Request parameters.
          * @param {*} [options] Override http request option.
@@ -129,7 +129,7 @@ export const RulesApiFactory = function (configuration?: Configuration, basePath
     const localVarFp = RulesApiFp(configuration)
     return {
         /**
-         * Trigger a rule which uses an [\"incoming web request\"](https://developers.asana.com/reference/rest-api-reference) trigger.
+         * Trigger a rule which uses an [\"incoming web request\"](https://raw.githubusercontent.com) trigger.
          * @summary Trigger a rule
          * @param {RulesApiTriggerRuleRequestRequest} requestParameters Request parameters.
          * @param {*} [options] Override http request option.
@@ -165,7 +165,7 @@ export type RulesApiTriggerRuleRequestRequest = {
  */
 export class RulesApiGenerated extends BaseAPI {
     /**
-     * Trigger a rule which uses an [\"incoming web request\"](https://developers.asana.com/reference/rest-api-reference) trigger.
+     * Trigger a rule which uses an [\"incoming web request\"](https://raw.githubusercontent.com) trigger.
      * @summary Trigger a rule
      * @param {RulesApiTriggerRuleRequestRequest} requestParameters Request parameters.
      * @param {*} [options] Override http request option.

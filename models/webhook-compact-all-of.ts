@@ -13,7 +13,7 @@ import type * as buffer from "buffer"
 import { AsanaNamedResource } from './asana-named-resource';
 
 /**
- * Webhook objects represent the state of an active subscription for a server to be updated with information from Asana. This schema represents the subscription itself, not the objects that are sent to the server. For information on those please refer to the [event](https://developers.asana.com/reference/rest-api-reference) schema.
+ * Webhook objects represent the state of an active subscription for a server to be updated with information from Asana. This schema represents the subscription itself, not the objects that are sent to the server. For information on those please refer to the [event](https://raw.githubusercontent.com) schema.
  * @export
  * @interface WebhookCompactAllOf
  */

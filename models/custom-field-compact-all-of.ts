@@ -15,7 +15,7 @@ import { CustomFieldCompactAllOfDateValue } from './custom-field-compact-all-of-
 import { EnumOption } from './enum-option';
 
 /**
- * Custom Fields store the metadata that is used in order to add user-specified information to tasks in Asana. Be sure to reference the [custom fields](https://developers.asana.com/reference/rest-api-reference) developer documentation for more information about how custom fields relate to various resources in Asana.  Users in Asana can [lock custom fields](https://asana.com/guide/help/premium/custom-fields#gl-lock-fields), which will make them read-only when accessed by other users. Attempting to edit a locked custom field will return HTTP error code `403 Forbidden`.
+ * Custom Fields store the metadata that is used in order to add user-specified information to tasks in Asana. Be sure to reference the [custom fields](https://raw.githubusercontent.com) developer documentation for more information about how custom fields relate to various resources in Asana.  Users in Asana can [lock custom fields](https://asana.com/guide/help/premium/custom-fields#gl-lock-fields), which will make them read-only when accessed by other users. Attempting to edit a locked custom field will return HTTP error code `403 Forbidden`.
  * @export
  * @interface CustomFieldCompactAllOf
  */
@@ -39,7 +39,7 @@ export interface CustomFieldCompactAllOf {
      */
     'type'?: CustomFieldCompactAllOfTypeEnum;
     /**
-     * *Conditional*. Only relevant for custom fields of type `enum`. This array specifies the possible values which an `enum` custom field can adopt. To modify the enum options, refer to [working with enum options](https://developers.asana.com/reference/rest-api-reference).
+     * *Conditional*. Only relevant for custom fields of type `enum`. This array specifies the possible values which an `enum` custom field can adopt. To modify the enum options, refer to [working with enum options](https://raw.githubusercontent.com).
      * @type {Array<EnumOption>}
      * @memberof CustomFieldCompactAllOf
      */
